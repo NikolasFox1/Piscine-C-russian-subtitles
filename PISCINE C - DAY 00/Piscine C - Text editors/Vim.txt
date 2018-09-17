@@ -1,0 +1,212 @@
+1
+00:00:00,780 --> 00:00:03,720
+Hi everyone and welcome to this introduction video.
+Приветствую всех и приветствую это видео.
+
+2
+00:00:03,780 --> 00:00:09,280
+In this video, we will talk about vim, one of the two text editors we advise you to use.
+В этом видео мы поговорим о vim, одном из двух текстовых редакторов, которые мы советуем вам использовать.
+
+3
+00:00:09,290 --> 00:00:10,600
+How do we start vim ?
+Как мы начинаем vim?
+
+4
+00:00:10,970 --> 00:00:15,600
+To start vim, type "vim" followed by the name of the file you want to edit on your shell.
+Чтобы запустить vim, введите «vim», а затем имя файла, который вы хотите изменить в своей оболочке.
+
+5
+00:00:15,700 --> 00:00:16,960
+Once in vim,
+Когда-то в vim,
+
+6
+00:00:16,960 --> 00:00:18,460
+we arrive in "command" mode.
+мы приходим в «командный» режим.
+
+7
+00:00:18,590 --> 00:00:20,880
+One must know that vim has two modes :
+Нужно знать, что vim имеет два режима:
+
+8
+00:00:21,200 --> 00:00:23,380
+The "command" mode, and the "insertion" mode.
+Режим «команда» и режим «вставки».
+
+9
+00:00:23,560 --> 00:00:28,020
+The "command" mode allows us to use commands, and the "insertion" mode allows us to insert text.
+Режим «command» позволяет нам использовать команды, а режим «вставки» позволяет вставлять текст.
+
+10
+00:00:28,090 --> 00:00:29,900
+If I want to quit vim,
+Если я хочу выйти из vim,
+
+11
+00:00:29,930 --> 00:00:31,930
+I just need to type ":q".
+Мне просто нужно ввести «: q».
+
+12
+00:00:34,480 --> 00:00:36,980
+How do I insert text once in vim ?
+Как вставить текст один раз в vim?
+
+13
+00:00:37,150 --> 00:00:41,260
+I first need to switch to "insertion" mode by pressing "i".
+Сначала мне нужно переключиться в режим «вставки», нажав «i».
+
+14
+00:00:41,420 --> 00:00:44,540
+If I don't, the text won't appear.
+Если я этого не сделаю, текст не появится.
+
+15
+00:00:44,840 --> 00:00:49,220
+If, for exemple, I want to add "i++;" here,
+Если, например, я хочу добавить «i ++;» Вот,
+
+16
+00:00:50,000 --> 00:00:52,760
+I can do it by switching to "insertion" mode.
+Я могу сделать это, переключившись на режим «вставки».
+
+17
+00:00:53,390 --> 00:00:54,810
+In order to save the file,
+Чтобы сохранить файл,
+
+18
+00:00:54,810 --> 00:00:57,390
+I need to switch back in "command" mode,
+Мне нужно вернуться в режим командной строки,
+
+19
+00:00:57,390 --> 00:01:00,840
+otherwise the command will be written in my file.
+иначе команда будет записана в моем файле.
+
+20
+00:01:01,530 --> 00:01:04,760
+To switch back in "command" mode, I press "esc".
+Чтобы вернуться в режим «command», я нажимаю «esc».
+
+21
+00:01:04,920 --> 00:01:07,920
+Now, I can type ":w" (and press enter) to save,
+Теперь я могу ввести «: w» (и нажать «Ввод»), чтобы сохранить,
+
+22
+00:01:08,220 --> 00:01:09,920
+and ":q" to quit.
+и ": q", чтобы выйти.
+
+23
+00:01:11,660 --> 00:01:17,520
+Let's see now some little commands for a better use of vim.
+Давайте посмотрим на некоторые небольшие команды для лучшего использования vim.
+
+24
+00:01:18,350 --> 00:01:21,020
+For exemple, "$" will bring you to the end of line.
+Например, «$» приведет вас к концу строки.
+
+25
+00:01:21,370 --> 00:01:25,340
+"^" will bring you to the beginning of the line.
+«^» приведет вас к началу линии.
+
+26
+00:01:25,870 --> 00:01:29,700
+To open a new file, type ":e"
+Чтобы открыть новый файл, введите «: e»
+
+27
+00:01:29,760 --> 00:01:33,400
+and the name of the file (ex : "test.c").
+и имя файла (например: «test.c»).
+
+28
+00:01:33,930 --> 00:01:37,400
+I am in "command" mode, so I press "i" to insert text,
+Я в режиме «command», поэтому я нажимаю «i», чтобы вставить текст,
+
+29
+00:01:37,960 --> 00:01:39,800
+and I write my "test" function.
+и я пишу свою «тестовую» функцию.
+
+30
+00:01:42,670 --> 00:01:47,520
+Now, to save it, I type ":w" in "command" mode (press "esc" first).
+Теперь, чтобы сохранить его, я набираю «: w» в «командном» режиме (сначала нажмите «esc»).
+
+31
+00:01:48,400 --> 00:01:52,660
+To split my buffer vertically, I type ":vs".
+Чтобы разбить мой буфер по вертикали, я набираю «: vs».
+
+32
+00:01:53,790 --> 00:01:57,820
+To move between buffers, I press "control W".
+Чтобы перемещаться между буферами, я нажимаю «control W».
+
+33
+00:01:58,510 --> 00:02:01,760
+Then, with the arrows, I choose which one I want to work with.
+Затем, со стрелками, я выбираю, с кем я хочу работать.
+
+34
+00:02:02,176 --> 00:02:06,944
+I could also have split the screen horizontally with ":sp".
+Я мог бы также разделить экран по горизонтали на «: sp».
+
+35
+00:02:08,670 --> 00:02:13,700
+In order to quit a buffer, I type ":q".
+Чтобы выйти из буфера, введите «: q».
+
+36
+00:02:18,080 --> 00:02:24,528
+If, in the left buffer, I want to re-edit "main", I just need to type ":e main".
+Если в левом буфере я хочу переименовать «main», мне просто нужно набрать «: e main».
+
+37
+00:02:26,570 --> 00:02:31,072
+Now, if I want to insert the 42's "header", as you'll have to do
+Теперь, если я хочу вставить «заголовок» 42-го, как вам нужно будет сделать
+
+38
+00:02:31,104 --> 00:02:34,144
+in every ".c" file you will create,
+в каждом «.c» файле, который вы создадите,
+
+39
+00:02:34,145 --> 00:02:38,064
+I need to type ":stdheader".
+Мне нужно набрать «: stdheader».
+
+40
+00:02:38,080 --> 00:02:40,656
+The auto-completion will help you to find it.
+Автозаполнение поможет вам найти его.
+
+41
+00:02:40,848 --> 00:02:43,680
+After pressing "enter" / "return", we have the 42's "header".
+После нажатия «enter» / «return» у нас есть «заголовок» 42-го.
+
+42
+00:02:43,680 --> 00:02:45,680
+We can now save and quit.
+Теперь мы можем сохранить и уйти.
+
+43
+00:02:48,064 --> 00:02:49,376
